@@ -1,0 +1,55 @@
+*, 
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    background: rgb(5, 168, 135);
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35%;
+}
+.card-body {
+    background: yellow;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: ridge;
+    text-align: center;
+}
+.card-body h1{
+    margin-bottom: 5px;
+    font-size: 50px ;
+}
+.card-body input{
+    margin-bottom: 10px;
+    font-size: 15px ;
+}
+.card-button button{
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    padding: 5px 30px;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button#increment {
+    background: rgb(2, 19, 8);
+}
+button#reset {
+    background: rgb(2, 19, 8);
+}
+button#decrement {
+    background: rgb(2, 19, 8);
+}
